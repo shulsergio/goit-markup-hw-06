@@ -53,7 +53,84 @@
             </li>
           </ul>
         </address>
+        <button type="button" class="open-menu-btn">
+          <svg width="24" height="24">
+            <use href="./images/icons.svg#icon-solid-menu"></use>
+          </svg>
+        </button>
       </div>
+
+      <!-- ---------menu-mobile---- -->
+      <div class="mini-menu">
+        <div>
+          <button type="button" class="menu-button-cencel">
+            <svg class="button-cencel-svg" width="8" height="8">
+              <use
+                class="button-cencel-use"
+                href="./images/symbol-defs.svg#icon-close"
+              ></use>
+            </svg>
+          </button>
+          <ul class="menu-header-list">
+            <li class="menu-navi-style">
+              <a class="menu-text-navi-studio" href="./index.html">Studio</a>
+            </li>
+            <li class="menu-navi-style">
+              <a class="menu-text-navi" href="#">Portfolio</a>
+            </li>
+            <li class="menu-navi-style">
+              <a class="menu-text-navi" href="#">Contacts</a>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <address class="menu-address">
+            <ul class="menu-address-navi">
+              <li class="menu-adress-tel">
+                <a href="tel:+110001111111" class="contacts"
+                  >+11 (000) 111-11-11</a
+                >
+              </li>
+              <li class="menu-adress-mail">
+                <a href="mailto:info@devstudio.com" class="contacts"
+                  >info@devstudio.com</a
+                >
+              </li>
+            </ul>
+          </address>
+          <ul class="menu-all-icons">
+            <li class="team-icon-link">
+              <a class="icons-link">
+                <svg class="team-icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="team-icon-link">
+              <a class="icons-link">
+                <svg class="team-icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="team-icon-link">
+              <a class="icons-link">
+                <svg class="team-icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="team-icon-link">
+              <a class="icons-link">
+                <svg class="team-icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-linkedin"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!-- -------- END menu modal ------- -->
     </header>
 
     <!-- ----------- end header ---------- -->
@@ -137,12 +214,15 @@
           </ul>
         </div>
       </section>
+      <!-- ---sec 3--- -->
       <section class="section section-three">
         <div class="container container-three">
           <h2 class="section-three-header">Our Team</h2>
           <ul class="team-list">
             <li class="team-list-li">
               <img
+                class="team-img"
+                srcset="./images/sec1_img1.jpg 1x, ./images/sec1_img1_2.jpg 2x"
                 src="./images/sec1_img1.jpg"
                 width="264"
                 height="260"
@@ -185,6 +265,8 @@
             </li>
             <li class="team-list-li">
               <img
+                class="team-img"
+                srcset="./images/sec1_img2.jpg 1x, ./images/sec1_img2_2.jpg 2x"
                 src="./images/sec1_img2.jpg"
                 width="264"
                 height="260"
@@ -227,6 +309,8 @@
             </li>
             <li class="team-list-li">
               <img
+                class="team-img"
+                srcset="./images/sec1_img3.jpg 1x, ./images/sec1_img3_2.jpg 2x"
                 src="./images/sec1_img3.jpg"
                 width="264"
                 height="260"
@@ -269,6 +353,8 @@
             </li>
             <li class="team-list-li">
               <img
+                class="team-img"
+                srcset="./images/sec1_img4.jpg 1x, ./images/sec1_img4_2.jpg 2x"
                 src="./images/sec1_img4.jpg"
                 width="264"
                 height="260"
@@ -319,6 +405,10 @@
             <li class="portfolio-list-li">
               <div class="portfolio-list-form">
                 <img
+                  srcset="
+                    ./images/sec2_img1.jpg   1x,
+                    ./images/sec2_img1_2.jpg 2x
+                  "
                   src="./images/sec2_img1.jpg"
                   width="360"
                   height="300"
@@ -338,6 +428,10 @@
             <li class="portfolio-list-li">
               <div class="portfolio-list-form">
                 <img
+                  srcset="
+                    ./images/sec2_img2.jpg   1x,
+                    ./images/sec2_img2_2.jpg 2x
+                  "
                   src="./images/sec2_img2.jpg"
                   width="360"
                   height="300"
@@ -357,6 +451,10 @@
             <li class="portfolio-list-li">
               <div class="portfolio-list-form">
                 <img
+                  srcset="
+                    ./images/sec2_img3.jpg   1x,
+                    ./images/sec2_img3_2.jpg 2x
+                  "
                   src="./images/sec2_img3.jpg"
                   width="360"
                   height="300"
@@ -376,6 +474,10 @@
             <li class="portfolio-list-li">
               <div class="portfolio-list-form">
                 <img
+                  srcset="
+                    ./images/sec2_img4.jpg   1x,
+                    ./images/sec2_img4_2.jpg 2x
+                  "
                   src="./images/sec2_img4.jpg"
                   width="360"
                   height="300"
@@ -396,6 +498,10 @@
             <li class="portfolio-list-li">
               <div class="portfolio-list-form">
                 <img
+                  srcset="
+                    ./images/sec2_img5.jpg   1x,
+                    ./images/sec2_img5_2.jpg 2x
+                  "
                   src="./images/sec2_img5.jpg"
                   width="360"
                   height="300"
@@ -416,6 +522,10 @@
             <li class="portfolio-list-li">
               <div class="portfolio-list-form">
                 <img
+                  srcset="
+                    ./images/sec2_img6.jpg   1x,
+                    ./images/sec2_img6_2.jpg 2x
+                  "
                   src="./images/sec2_img6.jpg"
                   width="360"
                   height="300"
@@ -598,7 +708,6 @@
           </div>
           <button class="modal-label-btn" type="submit">Send</button>
         </form>
-        <!-- ///// -->
       </div>
     </div>
   </body>
